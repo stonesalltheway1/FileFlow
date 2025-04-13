@@ -1,0 +1,19 @@
+account ID: ea28cf7e-bca5-45f3-b1c8-9ed16e1e40bc
+product ID: 7b3d09f3-751f-4a23-a002-35a4fe2dd66e
+Product Token: prod-88e7e8c7481b9c3ed3086839633700329c797fce8fe1c524f86aa2c0bb0b2fb5v3
+
+fingerprint 30:01:59:08:34:99:20:83
+
+curl -X POST https://api.keygen.sh/v1/accounts/keller-concepts/licenses/actions/validate-key \
+  -H 'Content-Type: application/vnd.api+json' \
+  -H 'Accept: application/vnd.api+json' \
+  -d '{
+        "meta": {
+          "key": "E73F9B-0AF236-4C830E-F157DC-76A872-V3",
+          "scope": {
+            "product": "7b3d09f3-751f-4a23-a002-35a4fe2dd66e",
+            "policy": "38479e1b-32a5-4a96-9d85-713ca591ba24",
+            "fingerprint": "30:01:59:08:34:99:20:83"
+          }
+        }
+      }'

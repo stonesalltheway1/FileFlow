@@ -1,0 +1,36 @@
+# requirements.txt for FileFlow
+
+# Core UI and Interface
+customtkinter==5.2.0
+pillow==10.1.0
+# Note: tkinter is part of the Python Standard Library and cannot be installed via pip
+# Make sure you check the "tcl/tk and IDLE" option when installing Python on Windows
+
+# File Operations
+python-magic==0.4.27
+python-magic-bin==0.4.14; sys_platform == 'win32'
+send2trash==1.8.2
+watchdog==3.0.0
+
+# Data Storage and Analysis
+tinydb==4.8.0
+numpy==1.26.2
+
+# Optional ML Components for content classification
+scikit-learn==1.3.2
+
+# System Compatibility
+packaging==23.2
+
+# File Format Support
+chardet==5.2.0
+python-dateutil==2.8.2
+
+# Development Tools (Optional)
+pytest==7.4.0
+black==23.10.0
+isort==5.12.0
+pylint==3.0.2
+
+# Packaging for distribution
+pyinstaller==6.2.0
