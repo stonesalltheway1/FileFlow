@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "keygen_webhooks.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/webhook/appsumo", "dest": "keygen_webhooks.py" },
+    { "src": "/webhook/gumroad", "dest": "keygen_webhooks.py" }
+  ]
+}
