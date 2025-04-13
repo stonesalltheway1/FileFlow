@@ -1,0 +1,14 @@
+# These owners will be the default owners for everything in the repo
+* @Stonesalltheway1
+
+# Licensing system files
+license_config.py @Stonesalltheway1
+license_ui.py @Stonesalltheway1
+feature_protection.py @Stonesalltheway1
+keygen_webhooks.py @Stonesalltheway1
+
+# Core application
+FileFlow2.py @Stonesalltheway1
+
+# Documentation
+*.md @Stonesalltheway1
